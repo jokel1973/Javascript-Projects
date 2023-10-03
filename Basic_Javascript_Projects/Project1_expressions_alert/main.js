@@ -15,3 +15,12 @@ document.write(D);
 var Sent1 = "This is the begining of the string ";
 var Sent2 = " and this is the end of the string.";
 document.write(Sent1 + "<br>"+ Sent2);
+function checkCookies() {
+    let text = "";
+    if (navigator.cookieEnabled == true) {
+      text = "Cookies are enabled.";
+    } else {
+      text = "Cookies are not enabled.";
+    }
+    document.getElementById("demo").innerHTML = text;
+  }

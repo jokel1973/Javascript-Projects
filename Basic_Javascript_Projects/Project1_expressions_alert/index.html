@@ -6,7 +6,18 @@
 </head>
 
 <body>
-    
+    <h2>JavaScript HTML Events</h2>
+<p>Click the button to display the date.</p>
+
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date(); <p id="demo"></p> ;
+}
+</script>
+
+
 
 </body>
 </html>
