@@ -48,9 +48,9 @@ document.write(6 > 11 || 11 < 5);// Using the || (OR) function to verify both ar
 
 function not_Function() {
     document.getElementById("Not").innerHTML = !(20 > 10);
-}// Not function using ! this should return a False.
+}// Not function using ! . the statement reads ! (Not) 20 is greater than 10. this is not a true statement as 20 is greater than 19, this should return a False.
 
 function not_Function1() {
     document.getElementById("Not1").innerHTML = !(20 < 10);
-}
+}//Not function with a double negative, returns True.
 
