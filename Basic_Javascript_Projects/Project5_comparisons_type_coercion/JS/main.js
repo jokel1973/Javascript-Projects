@@ -25,7 +25,7 @@ console.log(3 + 4); //performs a math operation within the console
 
 console.log(4 > 10);// Performs a Boolean logic function in the console
 
-document.write(5 == 5);//Uses == as a comparison of the 2 numbers, should return a True
+document.write(typeof 5 == 5);//Uses == as a comparison of the 2 numbers, should return a True
 
 
 document.write(10 == 5);//Uses == as a comparison of the 2 numbers, should return a False
