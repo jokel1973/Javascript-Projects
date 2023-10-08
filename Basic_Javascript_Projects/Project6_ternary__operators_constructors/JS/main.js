@@ -23,14 +23,14 @@ function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Year = Year;
     this.Vehicle_Color = Color;
 }//This is an object constructor. it sets up the object with it's properties
-var Jack = new Vehicle("Class", "Viper",2020, "Red");
+var Jack = new Vehicle("Dodge", "Viper",2020, "Red");
 var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
 var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");//fills in the details so we can call the varibles 
 function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML = "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + " manufactured in " + Erik.Vehicle_Year;
 }//calls the details using the keywords new and this.
 function myFunction1() {
-    document.getElementById("New_and_This").innerHTML = "Jack drives a " + Jack.Vehicle_Class  + Jack.Vehicle_Model + " colored " + Jack.Vehicle_Color;
+    document.getElementById("New_and_This").innerHTML = "Jack drives a " + Jack.Vehicle_Model  + Jack.Vehicle_Model + " colored " + Jack.Vehicle_Color;
 }//For this one I changed Jack's vehicle to have a Class instead of a model. this returns as undefined when the function is run. 
 
 function Dog(Breed, Hair, Age, Color) {
