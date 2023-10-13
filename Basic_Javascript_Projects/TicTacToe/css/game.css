@@ -16,7 +16,7 @@ table {
 }
 
 td {
-    /*This propert changes the cursor to the index finger hand when
+    /*This property changes the cursor to the index finger hand when
     we hover over the td elements.*/
     cursor: pointer;
     /*This property sets our table border style.*/
