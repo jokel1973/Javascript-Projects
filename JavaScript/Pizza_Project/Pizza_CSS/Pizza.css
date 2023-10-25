@@ -2,6 +2,8 @@ body {
     background-color: cornflowerblue;
 }
 
+
+
 h1 {
     font-family: 'Times New Roman';
     color: blanchedalmond;
@@ -31,6 +33,7 @@ div {
     height: 190px;
     margin: 20 px auto;
     float: right;
+    
 }
 .left {
     width: 200px;
